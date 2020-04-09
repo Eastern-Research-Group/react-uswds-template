@@ -1,0 +1,21 @@
+@import './styles/_variables.scss';
+
+.card {
+  // Box shadow mixin
+  @include u-shadow(2);
+  // Spacing functions
+  padding: units(2);
+  color: color('blue-10');
+}
+
+
+.uswds-examples {
+  // Mixin examples
+  @include u-shadow(2); // https://designsystem.digital.gov/design-tokens/shadow/
+  @include u-font-size('ui', 6); // https://designsystem.digital.gov/design-tokens/typesetting/font-size
+  @include u-text('bold'); // https://designsystem.digital.gov/design-tokens/typesetting/font-weight/
+  // Function examples
+  padding: units(2); // https://designsystem.digital.gov/design-tokens/spacing-units/
+  margin: units(2);
+  color: color('indigo-70'); // https://designsystem.digital.gov/design-tokens/color/overview/
+}

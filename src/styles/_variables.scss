@@ -1,0 +1,9 @@
+// "required" is from uswds, and gives us access to all scss mixins and variables
+@import '~uswds/dist/scss/packages/required';
+
+// Define our own variables here if desired
+$darkBlue: color('blue-warm-80v');
+$blue: #0071bc;
+$green: #78b57e;
+$gray: #858e99;
+$lightGray: #eaebea;

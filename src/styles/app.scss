@@ -1,0 +1,19 @@
+// -------------------------------------
+// Set uswds asset paths via theme variables - this fixes webpack issues
+$theme-hero-image: '~uswds/dist/img/hero.png';
+$theme-image-path: '~uswds/dist/img';
+$theme-font-path: '~uswds/dist/fonts';
+
+// -------------------------------------
+// Set uswds theme variables for preferred fonts, sizes, etc.
+// See here for more info on theming: https://designsystem.digital.gov/documentation/settings/#general
+$theme-font-type-sans: 'source-sans-pro'; // This is the default and can be removed - just wanted to show an example
+
+// -------------------------------------
+// Import uswds main scss now that theme vars are set
+@import '~uswds/dist/scss/uswds';
+
+// -------------------------------------
+// Import app-specific style modules
+@import 'inputs';
+@import 'text';
